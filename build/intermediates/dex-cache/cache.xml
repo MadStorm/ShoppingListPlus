@@ -83,6 +83,15 @@
         <dex dex="C:\Users\lukac\AndroidStudioProjects\ShoppingListPlus\app\build\intermediates\pre-dexed\debug\classes_18eeab7a5df5baef7aeb6a3d2ad423cf0b0dbf45.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="C:\Users\lukac\Documents\Github Repository\ShoppingListPlus\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f7237b8f85deda36f00d79e33b930e081e812882">
+        <dex dex="C:\Users\lukac\Documents\Github Repository\ShoppingListPlus\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_13cb29453daf343aa9e4b105cb0dd88ed000af56\classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="C:\Users\lukac\.android\build-cache\f8bcf24fec37741c19caf2ada29d517ee404e841\output\jars\classes.jar"
         jumboMode="false"
@@ -243,6 +252,15 @@
         revision="26.0.1"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
         <dex dex="C:\Users\lukac\AndroidStudioProjects\ShoppingListPlus\app\build\intermediates\pre-dexed\debug\classes_c103d44e7d37034005a613ec205a98a27b654d54.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lukac\Documents\Github Repository\ShoppingListPlus\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\lukac\Documents\Github Repository\ShoppingListPlus\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f10bd197f2fe0e6d9a97b77a900fada14ae1f149\classes.dex" />
     </item>
 
 </items>

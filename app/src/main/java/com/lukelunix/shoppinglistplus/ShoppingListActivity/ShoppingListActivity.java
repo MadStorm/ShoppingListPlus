@@ -93,11 +93,11 @@ public class ShoppingListActivity extends AppCompatActivity implements View.OnCl
         listItems.setOnItemClickListener(this);
 
         //Add home menu button to actionbar
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setHomeButtonEnabled(true);
+       // getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        //getSupportActionBar().setDisplayShowHomeEnabled(true);
+        //getSupportActionBar().setHomeButtonEnabled(true);
         //getSupportActionBar().setHomeAsUpIndicator(R.drawable.homewhite);
-        getOverflowMenu();
+        //getOverflowMenu();
     }
 
     private void getOverflowMenu() {
