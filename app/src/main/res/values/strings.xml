@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Shopping List Plus</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+
+    <string name="title_activity_add_item_from_list">AddItemFromListActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>

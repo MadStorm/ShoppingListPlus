@@ -9,8 +9,6 @@ import android.content.SharedPreferences;
 import android.graphics.Paint;
 
 import android.view.KeyEvent;
-import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewConfiguration;
@@ -28,7 +26,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-import com.lukelunix.shoppinglistplus.MainMenu;
 import com.lukelunix.shoppinglistplus.R;
 
 import org.apache.commons.io.FileUtils;
@@ -126,18 +123,6 @@ public class ShoppingListActivity extends AppCompatActivity implements View.OnCl
     }
 
 
-    //Main Menu buttons
-    @Override
-    public boolean onOptionsItemSelected(MenuItem menuItem) {
-        switch(menuItem.getItemId()){
-            case android.R.id.home:
-                Intent homeIntent = new Intent(this, MainMenu.class);
-                homeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(homeIntent);
-                break;
-        }
-        return(super.onOptionsItemSelected(menuItem));
-    }
 
 
     // Read items from "todotasks.txt" file
